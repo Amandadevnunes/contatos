@@ -52,11 +52,7 @@ section.cabeçalho{
     font-weight: bold;
     color: #160041;
 }
-/* medidas do banner - imagem do olho */
-.imagem_olho{
-    width: 1440px;
-    height: 165px;
-}
+
 /* estilo do botão de login no cabeçalho */
 .login{
     border: none;
@@ -66,4 +62,5 @@ section.cabeçalho{
     font-weight: bold;
     border-radius: 5px;
 }
+
 

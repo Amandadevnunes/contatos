@@ -1,0 +1,45 @@
+
+.rodape__container {
+    background-color: blue (--azul-escuro);
+    height: 250px;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .rodape {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding: 15px;
+    background-color: #031D38;
+    color:#FEFEFE;
+  }
+  
+  .rodape img {
+    height: 80px;
+    width: 230px;
+  }
+  
+  #texto__rodape {
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  #contato img, #redes-sociais img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  #titulo__redes {
+    color: var(--branco);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+
+  .p{
+    color: white;
+  }

@@ -17,12 +17,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googlea>
+    <link href="https://fonts.googlea">
+
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="repositor.css">
 
    
-    
-    <title>Contatos</title>
-    <link rel="stylesheet" href="header.css">
 </head>
 
 
@@ -138,41 +139,54 @@
     </section>
 <body>
  <!-- Parte olho copiado em imagem-->
- <div class="logo olho">
-    <img src="img/olho.png" alt="olho">
+ <div class="imagem_olho">
+    <img src="img/olho.png" alt="imagem_olho">
 </div>
-    
+ 
 
     <h1>Contatos</h1> <!--Titulo da página  -->
-
+    <div style='position:relative; top:0px; left:0px;'>
     <div class="fundol">
-        <img src="img/fundolateral.png" alt="fundo">
+        <img src="img/fundolateral.png" alt="fundol">
     </div>
 
+    <div style="position: absolute; top: 20px; left: 500px;  ">
     <h2>Entre em contato conosco</h2>
-
-    <div class="logo olho">
-        <img src="img/mapa.png" alt="olho">
+</div>
+    
+    <div style='position:absolute; top:123px; left:130px; width: 487px; height: 411px;'>
+    <div class="mapa_clinica">
+        <img src="img/mapa.png" alt="mapa_clinica">
     </div>
 
     <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome">
+        <div style="position: absolute;top: 30px; left: 650px;">
+        <div class="preencha">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
 
-        <label for="telefone">Telefone:</label>
-        <input type="texte" id="Telefone" name="Telefone">
+            <label for="telefone">Telefone:</label>
+            <input type="texte" id="Telefone" name="Telefone">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
 
-        <label for="mensagem">Mensagem:</label>
-        <input type="text" id="nome" name="mensagem">
+         <div class="mensagem">
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" id="nome" name="mensagem">
+        </div>
 
-        <input type="submit" value="Enviar Mensagem">
+            <input type="submit" value="Enviar Mensagem">
+        </div>
+</div>
     </form>
-    
-    <footer> <!--Início do footer-->
-        <div class="cabecalho">
+
+
+    <footer>
+
+     <!--Início do footer-->
+       <ul class="rodape"
+
             <svg class="logo" width="237" height="82" viewBox="0 0 237 82" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_di_317_3)">
@@ -264,38 +278,42 @@
             <p>Horário de Atendimento</p>
                <p> Seg a Sex das 8h às 18h</p>
                 <p>Sáb das 8h às 12h</p>
-
-                <div class="tel"> <!--Icne telefone -->
-                    <img src="img/telefone.png" alt="inumed">
-                </div>
-                <!--telefone abixo da imagem -->
+         
+                 <!--Icone telefone -->
+                    <img src="img/telefone.png" alt="telefone">
+             
+                <!--telefone abaixo da imagem -->
                 <p>(11) 3276-3530</p> 
 
-                <!--Icone whats -->
-                <div class="whats">
-                    <img src="img/whats.png" alt="">
-                </div>
-                <!--telefone abaixo do icone whats-->
-                <p>(11) 96731-8829</p>
-                <!--icone maps-->
-                <div class="maps">
-                    <img src="img/maps.png" alt="">
-                </div>
-                <!--Endereço abaixo do icone maps -->
-                <p>R. Padre Adelino, 333 - Belenzinho 
-                    São Paulo - SP, CEP: 03303-000</p>
-                    <h2>Siga-nos!</h2>
 
+                <!--Icone whats -->
+                <img src="img/whats.png" alt="icone whats">
+                
+                    <!--telefone abaixo do icone whats-->
+                    <p>(11) 96731-8829</p>
+
+                    <!--icone maps-->
+                   <img src="img/maps.png" alt="maps">
+                
+                    <!--Endereço abaixo do icone maps -->
+                    <p>R. Padre Adelino, 333 - Belenzinho 
+                        São Paulo - SP, CEP: 03303-000</p>
+
+                        <h2>Siga-nos!</h2>
+                        
+        
                     <!--imagens icones face e insta-->
-                    <div class="face">
-                        <img src="img/face.png" alt="inumed">
+                    <div id="redes-sociais">
+                        <img src="img/face.png" alt="face">
+    
+                        <img src="img/insta.png" alt="insta">
                     </div>
-                    <div class="insta">
-                        <img src="img/insta.png" alt="inumed">
-                    </div>
+
                     <h2>Desenvolvido por:</h2>
                     <!--inserir código QR-->
-    </footer>
+                </ul>
+              
+                    </footer>
     
 </body>
 </html>
